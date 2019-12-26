@@ -1,0 +1,16 @@
+/node_modules
+/public/storage
+/public/css
+/public/fonts
+/public/js
+/public/images
+/public/s3
+/public/assets
+/public/lib
+/public/themes
+/public/mix-manifest.json
+mix-manifest.json
+/vendor
+.env
+
+tools/provisioning/.vagrant/*

@@ -1,0 +1,15 @@
+// Global variables
+@import "variables";
+
+// Bootstrap 4
+//@import "~bootstrap/scss/bootstrap"; // because it is included in adminlte
+
+// Font awesome 4.7
+$fa-font-path: "../fonts" !default;
+@import "~font-awesome/scss/font-awesome.scss";
+
+// AdminLTE theme v3.0
+@import "~admin-lte/build/scss/AdminLTE";
+
+// Customized style
+@import "custom";

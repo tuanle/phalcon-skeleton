@@ -1,0 +1,12 @@
+<?php
+/*
+|--------------------------------------------------------------------------
+| Define base directory's paths
+|--------------------------------------------------------------------------
+*/
+define('BASE_PATH', __DIR__);
+
+require_once BASE_PATH . '/bootstrap/abstract.php';
+require_once BASE_PATH . '/bootstrap/cli.php';
+
+(new CliApplication())->run();
